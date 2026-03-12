@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Nunes Ereno">
+    <meta name="description" content="Pesquisa sobre Design Responsivo">
+    <meta name="keywords" content="pesquisa, design, RWD">
+    <title>Design Responsivo</title>
+</head>
+<body>
+    <div class="header-container">
+        <header class="header">
+            <div class="img-header">
+                <img src="./images/header_img.webp" alt="cenário de uma pequena cidade durante a noite">
+            </div>
+            <nav class="nav">
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#intro" class="nav-link">Introdução</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#concepts" class="nav-link">Conceitos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#frameworks" class="nav-link">Frameworks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#examples" class="nav-link">Exemplos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#conclusion" class="nav-link">Conclusão</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#references" class="nav-link">Referências</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="main-container">
+        <main>
+            <h1>Design Responsivo</h1>
+            <section id="intro">
+                <h2>Introdução</h2>
+                <p>O design responsivo (<i lang="en">Responsive Web Design</i>, RWD) é uma abordagem do desenvolvimento web que permite que os sites e as aplicações se adaptem automaticamente a diferentes tamanhos de tela. Assim proporcionando uma experiencia consistente independente do dispositivo utilizado.</p>
+            
+                <div id="img-intro">
+                    <img src="./images/intro_img.webp" alt="demonstração de design responsivo a partir de três telas diferentes">
+                </div>
+            </section>
+
+            <section id="concepts">
+                <h2>Conceitos</h2>
+                <article>
+                    <h3>Layout Fluido (Fluid Grid)</h3>
+                    <p>Um layout fluido é aquele que usa unidades relativas (como %) no lugar de pixels (px), o que permite que os elementos da página se ajustem de forma proporcional ao tamanho da tela</p>
+                    <p>Exemplo: </p>
+                    <pre><!--
+                    --><code>
+    .menu{
+        width: 50%;
+    }
+                        </code>
+                    </pre>
+                </article>
+                <article>
+                    <h3>Media Queries</h3>
+                    <p>Foi o recurso que tornou o design responsivo possível. São regras CSS que permitem aplicar estilos diferentes dependendo das características do dispositivo, como a largura da tela.</p>
+                    <p>Exemplo: </p>
+                    <pre><!--
+                    --><code>
+    @media screen and (min-width: 800px){
+        .container{
+            margin: 1em 2em;
+        }
+    }
+                        </code>
+                    </pre>
+                </article>
+                <article>
+                    <h3>Imagens Responsivas</h3>
+                    <p>Imagens responsivas ajustam seu tamanho automaticamente, assim não ultrapassam o tamanho do container.</p>
+                    <p>Exemplo: </p>
+                    <pre><!--
+                    --><code>
+    img{
+        max-width: 100%;
+    }
+                        </code>
+                    </pre>
+                </article>
+            </section>
+
+            <section id="frameworks">
+                <h2>Frameworks</h2>
+                <dl>
+                    <dt>Bootstrap</dt>
+                    <dd>É um framework open-source para CSS direcionado para desenvolvimento responsivo e mobile-first.</dd>
+                    <dt>Foundation</dt>
+                    <dd>É um framework gratuito, avançado, mobile-first e de alta flexibilidade. Também possui uma versão especifica para e-mails.</dd>
+                </dl>
+            </section>
+
+            <section id="examples">
+                <h2>Exemplos de sites com design responsivo</h2>
+                <article>
+                    <h3>Youtube</h3>
+                    <p>A quantidade de vídeos exibidos na tela inicial e a forma como os vídeos recomendados são mostrados também se adaptam com o tamanho da tela.</p>
+                    <div class="gallery">
+                        <div class="img-example">
+                            <img src="./images/yt1.png" alt="exemplo do site youtube no computador" id="img-yt1">
+                        </div>
+                        <div class="img-example">
+                            <img src="./images/yt2.png" alt="exemplo do site youtube no celular" id="img-yt2">
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <h3>Amazon</h3>
+                    <p>O site se adapta automaticamente a dispositivos móveis, reorganizando menus e imagens.</p>
+                    <div class="gallery">
+                        <div class="img-example">
+                            <a href="./images/yt1.png"><img src="./images/amz1.png" alt="exemplo do site amazon no computador" id="img-amz1"></a>
+                        </div>
+                        <div class="img-example">
+                            <img src="./images/amz2.jpg" alt="exemplo do site amazon no celular" id="img-amz2">
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section id="conclusion">
+                <h2>Conclusão</h2>
+                <p>O design responsivo é essencial no desenvolvimento web moderno, pois garante que sites funcionem corretamente em qualquer dispositivo. Com o aumento do uso de smartphones, essa abordagem tornou-se um padrão obrigatório (mobile-first).</p>
+            </section>
+
+            <section id="references">
+                <h2>Referências</h2>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design" target="_blank">MDN Web Docs. Responsive Design. Mozilla Developer Network</a></li>
+                    <li><a href="https://en.wikipedia.org/w/index.php?title=Bootstrap_(front-end_framework)&oldid=1337695449" target="_blank">Wikipedia contributors. (2026, February 10). Bootstrap (front-end framework). In Wikipedia, The Free Encyclopedia. Retrieved 14:24, February 23, 2026</a></li>
+                    <li><a href="https://get.foundation/" target="_blank">Foundation documentação</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

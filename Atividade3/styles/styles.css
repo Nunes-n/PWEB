@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+body{
+    font-family: 'Gothic A1', sans-serif;
+    background-image: url("../images/wpp.jpg");
+    background-size: fill;
+}
+
+@media screen and (min-width: 1px){
+	.header-container{
+		width: 100%;
+	}
+    .main-container{
+        width: 100%;
+    }
+    .img-example{
+    height: 200px;
+    }
+}
+
+@media screen and (min-width: 700px){
+	.header-container{
+		width: 70%;
+	}
+    .main-container{
+        width: 80%;
+    }
+    .img-example{
+    height: 250px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+	.header-container{
+		width: 40%;
+	}
+    .main-container{
+        width: 50%;
+    }
+    .img-example{
+    height: 300px;
+    }
+}
+.header-container, .main-container{
+    background-color: rgb(216, 174, 255);
+}
+.header-container{
+    margin: 0 auto;
+}
+
+.image-header{
+    width: 100%;
+}
+
+.img-header img{
+    width: 100%;
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+
+    list-style: none;
+    padding-right: 5%;
+}
+
+.nav-item{
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.nav-link:link, .nav-link:visited{
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    color: rgb(160, 247, 193);
+}
+.nav-link:active{
+    color:rgb(255, 254, 166);
+}
+
+.main-container{
+    margin: 0 auto;
+}
+
+#img-intro{
+    width: 70%;
+    margin: 0 auto;
+}
+#img-intro img{
+    width: 100%;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width:100%;
+}
+
+.img-example{
+    display: inline-block;
+}
+.img-example img{
+    height: 100%;
+    width: auto;
+}
+
+code{
+    display: inline-block;
+    margin: 0% 1%;
+    padding-right: 2%;
+    border-radius: 7px;
+    background-color: rgb(54, 54, 54);
+    color: rgb(92, 233, 155);
+}
+
+h1{
+    text-align: center;
+    padding: 3% 0%;
+    font-size: xx-large;
+}
+h2{
+    padding: 1% 2%;
+    font-size: x-large;
+}
+h3{
+    padding: 1% 2%;
+    font-size: larger;
+}
+p{
+    padding: 0% 1.5%;
+}
