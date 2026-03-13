@@ -123,7 +123,7 @@ code{
 
 h1{
     text-align: center;
-    padding: 3% 0%;
+    padding: 3% 0% 0% 0%;
     font-size: xx-large;
 }
 h2{
@@ -134,6 +134,9 @@ h3{
     padding: 1% 2%;
     font-size: larger;
 }
-p{
+p, dd, dt{
     padding: 0% 1.5%;
+}
+dt{
+    font-weight: bold;
 }
