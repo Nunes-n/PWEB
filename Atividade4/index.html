@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Gabriel Nunes Ereno">
+    <meta name="description" content="Site de noticias sobre a Antartida">
+    <meta name="keywords" content="antartida, noticias">
+    <title>AntartidaNews</title>
 </head>
 <body>
     <div class="header">
         <div class="header-icon">
-            <img src="./images/h-icon.jpg" alt="um planeta"> <!--fazer a imagem-->
+            <img src="./images/icon2.png" alt="um planeta"> <!--fazer a imagem-->
         </div>
         <nav class="nav">
             <div class="nav-menu">
                 <ul class="nav-list">
-                    <li class="nav-item">item 1</li>
-                    <li class="nav-item">item 2</li>
-                    <li class="nav-item">item 3</li>
-                    <li class="nav-item">item 4</li>
+                    <li class="nav-item"><a href="">destaque</a></li>
+                    <li class="nav-item"><a href="">pesquisar</a></li>
+                    <li class="nav-item"><a href="">sobre</a></li>
                 </ul>
             </div>
         </nav>
     </div>
     <main>
+        <div class="absolute-header"></div>
         <div class="container-main">
             <div class="container-left-bar">
                 <div class="container-hightlight">
@@ -30,58 +36,78 @@
                     </section>
                 </div>
 
-                <div class="container-news">
-                    <section>
-                        <h1>Ultimas noticias</h1>
+                <section>
+                    <h1>Ultimas noticias</h1>
+                    <div class="container-news">
                         <article>
-                            <div class="article1">
-                                <img src="./images/article1.jpg">
-                                <h2>Titulo</h2>
-                                <p>resumo da notica</p>
+                            <div class="article">
+                                <div class="article-img">
+                                    <img src="./images/article1.jpg">
+                                </div>
+                                <a href="https://oc.eco.br/antartica-tem-1-de-areas-livres-de-gelo-revela-mapeamento-inedito-do-mapbiomas/" target="_blank">
+                                    <h2>Antártida tem 107 mil hectares de vegetação, revela MapBiomas </h2>
+                                </a>
+                                <p>Levantamento sobre áreas não congeladas e cobertas por vegetação ajuda a monitorar impactos das mudanças do clima no continente</p>
+                                <p>tags:</p>
+                                <button class="btn-tag">mudanças climaticas</button>
+                                <button class="btn-tag">mapas</button>
                             </div>
                         </article>
-
                         <article>
-                            <div class="article2">
-                                <img src="./images/article2.jpg">
-                                <h2>Titulo</h2>
-                                <p>resumo da noticia</p>
+                            <div class="article">
+                                <div class="article-img">
+                                    <img src="./images/article2.webp">
+                                </div>
+                                <a href="https://www.nationalgeographicbrasil.com/animais/2026/03/tubarao-descoberto-nas-aguas-da-antartida-tem-superpoderes-de-sobrevivencia" target="_blank">
+                                    <h2>Tubarão descoberto nas águas da Antártida tem superpoderes de sobrevivência</h2>
+                                </a>
+                                <p>Os chamados tubarões-dormidores têm uma vida extraordinariamente longa e conseguem sobreviver em águas oceânicas com temperaturas próximas ao ponto de congelamento, como aquelas perto dos pólos da Terra.</p>
+                                <p>tags:</p>
+                                <button class="btn-tag">animais</button>
                             </div>
                         </article>
-
                         <article>
-                            <div class="article3">
-                                <img src="./images/article3.jpg">
-                                <h2>Titulo</h2>
-                                <p>resumo da notica</p>
+                            <div class="article">
+                                <div class="article-img">
+                                    <img src="./images/article3.webp">
+                                </div>
+                                <a href="https://www.bbc.com/portuguese/articles/ce8wz8zrd8do" target="_blank">
+                                    <h2>Você encararia viver e trabalhar na Antártida? As surpreendentes vagas no continente</h2>
+                                </a>
+                                <p>Tanto as bases de pesquisa do Reino Unido quanto as dos Estados Unidos na Antártida estão recrutando uma nova leva de profissionais para "ir para o sul".</p>
+                                <p>tags:</p>
+                                <button class="btn-tag">expedição</button>
                             </div>
                         </article>
-
                         <article>
-                            <div class="article4">
-                                <img src="./images/article4.jpg">
-                                <h2>Titulo</h2>
-                                <p>resumo da noticia</p>
+                            <div class="article">
+                                <div class="article-img">
+                                    <img src="./images/article4.webp">
+                                </div>
+                                <a href="https://noticiasambientales.com/ciencia-pt/a-nasa-alerta-nos-ultimos-30-anos-a-antartida-perdeu-gelo-equivalente-a-10-cidades-como-los-angeles/" target="_blank">
+                                    <h2>A NASA alerta: nos últimos 30 anos a Antártida perdeu gelo equivalente a 10 cidades como Los Angeles</h2>
+                                </a>
+                                <p>A NASA e uma equipe de glaciólogos da Universidade da Califórnia apresentaram o primeiro mapa continental que documenta como mudou a linha de flutuação da Antártica nas últimas três décadas.</p>
+                                <p>tags:</p>
+                                <button class="btn-tag">mudanças climaticas</button>
+                                <button class="btn-tag">mapas</button>
                             </div>
                         </article>
-                    </section>
-                </div>
+                    </div>
+                </section>
             </div>
 
             <div class="container-right-bar">
                 <div class="container-tags">
                     <h2>Tags:</h2>
-                    <ul>
-                        <li>tag 1</li>
-                        <li>tag 2</li>
-                        <li>tag 3</li>
-                        <li>tag 4</li>
-                        <li>tag 5</li>
-                    </ul>
-                </div>
-
-                <div class="container-ad">
-                    <img src="./images/ad.jpg">
+                    <div class="list-tags">
+                        <ul>
+                            <li><button class="btn-tag">mudanças climaticas</button></li>
+                            <li><button class="btn-tag">animais</button></li>
+                            <li><button class="btn-tag">expedição</button></li>
+                            <li><button class="btn-tag">mapas</button></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
