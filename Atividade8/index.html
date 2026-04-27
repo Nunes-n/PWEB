@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="atv8.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel Nunes Ereno">
+    <title>Atividade 8</title>
+</head>
+<body>
+    <main>
+        <div class="formulario">
+        <h1>formulário filme</h1>
+
+        <div class="form-container">
+        <form id="forma">
+            <p>idade:</p>
+            <input type="number" id="idade">
+
+            <p>sexo: </p>
+            <select id="sexo">
+                <option value="f">feminino</option>
+                <option value="m">masculino</option>
+                <option value="o">outros</option>
+            </select>
+
+            <p>opinião: </p>
+            <select id="opiniao">
+                <option value="1">1 - péssimo</option>
+                <option value="2">2 - regular</option>
+                <option value="3">3 - bom</option>
+                <option value="4">4 - ótimo</option>
+            </select>
+
+            <br>
+            <button type="button" onclick="enviar()">enviar</button>
+            <button type="button" onclick="consultar()">consultar</button>
+        </form>
+        </div>
+        </div>
+    </main>
+
+    <script src="atv8.js"></script>
+</body>
+</html>
