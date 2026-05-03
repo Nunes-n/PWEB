@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: bottom;
+    gap: 5px;
+}
+
+.form{
+    padding: 10px;
+    background-image: linear-gradient(aliceblue, rgb(205, 231, 255));
+    border: solid 3px aliceblue;
+    border-radius: 10px;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
