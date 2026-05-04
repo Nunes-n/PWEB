@@ -1,0 +1,69 @@
+body{
+    font-family:Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.container-main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.block{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(179, 189, 231));
+
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.resultado{
+    height: fit-content;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    margin-bottom: 5px;
+}
+.resultado p{
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    padding: 5px 3px;
+    margin: 0;
+}
+#btnCalcular{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(105, 128, 255));
+
+    display: block;
+    font-size: large;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+#btnCalcular:hover{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(135, 153, 255));
+}
+#btnCalcular:active{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(201, 209, 255));
+}
+input{
+    font-size: large;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 5px;
+}
+p{
+    font-size: large;
+}
+
+table{
+    background-color: black;
+}
+tr{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
