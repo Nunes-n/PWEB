@@ -1,0 +1,37 @@
+body{
+    font-size: large;
+}
+.main-container{
+    background-color: rgb(205, 227, 213);
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    display: block;
+    margin: 5px auto;
+    background-image: linear-gradient(rgb(218, 245, 218), rgb(142, 189, 141));
+    border: 2px solid rgb(218, 245, 218);
+    border-radius: 10px;
+    font-size: x-large;
+}
+button:hover{
+    background-image: linear-gradient(rgb(235, 250, 235), rgb(175, 213, 175));
+    border: 2px solid rgb(235, 250, 235);
+}
+button:active{
+    background-image: linear-gradient(rgb(250, 241, 235), rgb(213, 191, 175));
+    border: 2px solid rgb(250, 241, 235);
+}
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 3px;
+    margin: 5px 0 5px 0;
+}
