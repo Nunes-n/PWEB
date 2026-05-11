@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta Bancaria</title>
+    <meta name="author" content="Gabriel Nunes Ereno">
+</head>
+<body>
+    <div class="container-main">
+        <div class="corrente">
+            <h2>Conta Corrente</h2>
+            <form id="formContaCorrente">
+                nome correntista: <input type="text" id="cNome"><br>
+                banco: <input type="text" id="cBanco"><br>
+                número da conta: <input type="text" id="cNumero"><br>
+                saldo: <input type="number" id="cSaldo"> R$<br>
+                saldo especial: <input type="number" id="cSaldoEspecial"> R$<br>
+                <button type="button" onclick="montarContaCorrente()">consultar conta</button>
+            </form>
+        </div>
+        <div class="poupanca">
+            <h2>Conta Poupança</h2>
+            <form id="formContaPoupanca">
+                nome correntista: <input type="text" id="pNome"><br>
+                banco: <input type="text" id="pBanco"><br>
+                número da conta: <input type="text" id="pNumero"><br>
+                saldo: <input type="number" id="pSaldo"> R$<br>
+                juros: <input type="number" id="pJuros"><br>
+                data de vencimento: <input type="date" id="pDataVencimento"><br>
+                <button type="button" onclick="montarContaPoupanca()">consultar conta</button>
+            </form>
+        </div>
+    </div>
+    <script src="Conta.js"></script>
+</body>
+</html>
