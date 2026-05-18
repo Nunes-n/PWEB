@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="atv14.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+    <meta name="author" content="Gabriel Nunes Ereno">
+</head>
+<body>
+    <div class="container-main">
+        <main>
+            <form id="formulario">
+                <label for="texto">Texto: </label> 
+                <input type="text" id="texto" placeholder="Bom Dia">
+                <label for="textoF">Texto transformardo: </label> 
+                <input type="text" id="textoF" disabled>
+
+                <br>
+
+                <input type="radio" id="rdbMaiusculo" name="rdb">
+                <label for="rdbMaiusculo">transformar em maiúsculo</label>
+
+                <input type="radio" id="rdbMinusculo" name="rdb">
+                <label for="rdbMinusculo">transformar em minúsculo</label>
+
+                <br>
+
+                <input type="button" id="btnTransformar" onclick="Transformar()" value="Transformar">
+            </form>
+        </main>
+    </div>
+
+    <script src="atv14.js"></script>
+</body>
+</html>

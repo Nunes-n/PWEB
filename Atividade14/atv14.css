@@ -1,0 +1,50 @@
+@media screen and (min-width: 1px) and (max-width: 849px) {
+    .container-main{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1199px) {
+    .container-main{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container-main{
+        width: 55%;
+    }
+}
+
+.container-main{
+    background-color: rgb(222, 213, 230);
+    margin: auto;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    margin: 10px 5px 10px 5px;
+}
+
+#btnTransformar{
+    font-size: large;
+    border-radius: 15px;
+    border: 2px solid rgb(185, 161, 204);
+    background-image: linear-gradient(rgb(233, 227, 238), rgb(185, 161, 204));
+    padding: 5px;
+}
+
+#btnTransformar:hover{
+    border: 2px solid rgb(204, 184, 221);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(204, 184, 221));
+}
+
+#btnTransformar:active{
+    border: 2px solid rgb(226, 194, 210);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(226, 194, 210));
+}
