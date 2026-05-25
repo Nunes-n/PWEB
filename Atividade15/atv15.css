@@ -1,0 +1,38 @@
+@media screen and (min-width: 1px) and (max-width: 849px) {
+    .container-main{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1199px) {
+    .container-main{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container-main{
+        width: 55%;
+    }
+}
+
+.container-main{
+    background-image: linear-gradient(rgba(147, 244, 200, 0.194), rgba(81, 47, 158, 0.194));
+    margin:auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+}
+
+#btnsubmit, #btnlimpar{
+    border-radius: 5px;
+    border: solid 2px rgba(174, 179, 223, 0.311);
+    background-image: linear-gradient(rgba(223, 226, 253, 0.311), rgba(68, 63, 165, 0.45));
+    padding: 2px;
+}

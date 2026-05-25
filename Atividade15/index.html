@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="atv15.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 15</title>
+    <meta name="author" content="Gabriel Nunes Ereno">
+</head>
+<body>
+    <div class="container-main">
+        <form name="formulario" onsubmit="return validar()">
+            <h1>Formulário Principal</h1>
+
+            <hr>
+
+            <label for="txtnome">nome: </label>
+            <input type="text" id="txtnome" name="txtnome">
+
+            <br>
+
+            <label for="txtemail">email: </label>
+            <input type="email" id="txtemail" name="txtemail" placeholder="exemplo@email.com">
+
+            <br>
+
+            <label for="txtcomentario">comentário: </label>
+            <textarea id="txtcomentario" name="txtcomentario"></textarea>
+
+            <br>
+
+            <h2>pesquisa</h2>
+            <label for="pesquisa">Primeira vez nesta página?</label>
+            <br>
+            <input type="radio" id="rdbsim" name="pesquisa"><label for="rdbsim">sim</label>
+            <input type="radio" id="rdbnao" name="pesquisa"><label for="rdbnao">não</label>
+
+            <br>
+
+            <input type="submit" id="btnsubmit" value="enviar">
+            <input type="reset" id="btnlimpar" onclick="limpra()" value="limpar">
+        </form>
+    </div>
+
+    <script src="atv15.js"></script>
+</body>
+</html>
